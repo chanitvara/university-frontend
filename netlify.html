@@ -1,0 +1,10 @@
+# การตั้งค่าพื้นฐานสำหรับการ Build
+[build]
+  command = "npm run build"
+  publish = "build"
+
+# กฎการ Redirect (เหมือนกับไฟล์ _redirects)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
